@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "SF-Pro";
+  src: url("../font/SF-Pro.ttf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF-Pro";
+  src: url("../font/SF-Pro.ttf") format("opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SF-Pro";
+  src: url("../font/SF-Pro.ttf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF-Pro";
+  src: url("../font/SF-Pro.ttf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url("../font/AppleSDGothicNeoM.ttf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url("../font/AppleSDGothicNeoB.ttf") format("opentype");
+  font-weight: 700;
+}
+
+body {
+  font-family: 'SF-Pro', 'AppleSDGothicNeo', serif;
+  line-height: 1.25;
+}
+.blind {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+}
