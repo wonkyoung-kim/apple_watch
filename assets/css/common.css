@@ -30,7 +30,7 @@
 }
 
 body {
-  font-family: 'SF-Pro', 'AppleSDGothicNeo', serif;
+  font-family: 'SF-Pro', 'AppleSDGothicNeo', sans-serif;
   line-height: 1.25;
 }
 .blind {
