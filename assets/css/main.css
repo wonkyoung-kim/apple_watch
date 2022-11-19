@@ -33,11 +33,10 @@
 .sc-visual .image-wrap {
   display: flex;
   width: 120vw;
-  margin: 0 0 3% -10%;
+  margin: 0 0 3% -8%;
 }
 .sc-visual .image-wrap span {
   flex: 1;
-  /* height: 15vw; */
   margin: 0 -2%;
   transform: translateY(0);
   transition: transform .5s;
@@ -123,30 +122,21 @@
 }
 .sc-about .watch-area .watch-box {
   position: relative;
-  /* position: absolute;
-  left: 27%; top: 50%;
-  transform: translateY(-50%); */
-  /* z-index: 10; */
   opacity: 0;
   transform: translateY(100%) scale(1.5);
-  /* transform: translateX(-100%); */
 }
 .sc-about .watch-area .watch-box .watch-hardware {
   position: relative;
   z-index: 2;
-  /* width: 430px; */
   width: 320px;   
   background: url(../images/img-watch-mask1.png)no-repeat;
   background-size: contain;
-  /* margin-top: -130px; */
 }
 .sc-about .watch-area .watch-box .watch-hardware img {
   width: 100%;
 }
 .sc-about .watch-area .watch-box .watch-screen {
   position: absolute;
-  /* left: 62px;
-  top: 151px; */
   left: 36px;
   top: 112px;
   width: 232px;
@@ -163,12 +153,6 @@
 .sc-about .watch-area .watch-box .screen-item:nth-child(1) {
   opacity: 1;
 }
-/* .sc-about .watch-area .watch-box .screen-item.screen1 {z-index: 3;}
-.sc-about .watch-area .watch-box .screen-item.screen2 {z-index: 2;}
-.sc-about .watch-area .watch-box .screen-item.screen3 {z-index: 1;} */
-/* .sc-about .watch-area .watch-box .screen-item img {
-  width: 100%;
-} */
 .sc-about .watch-area .watch-box .screen-item video {
   width: 100%;
 }
@@ -176,10 +160,6 @@
   position: relative;
   width: 771px;
   height: 263px;
-  /* position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%); */
 }
 .sc-about .watch-area .title-box .title {
   position: absolute;

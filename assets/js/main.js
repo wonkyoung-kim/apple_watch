@@ -2,28 +2,26 @@ $(function(){
 
   // 스크롤 내리면 배경처리
   let lastScrT = 0;
-  let delta = 15;
+
   $(window).scroll(function(){
     curr = $(this).scrollTop();
-    
-    if(Math.abs(lastScrT - curr) <= delta) {
-      return;
-    }
   
-    if((curr>lastScrT) && (lastScrT>0)) {
-      $('.header').addClass('active');
-    } else {
-      $('.header').removeClass('active');
+    if(curr >= 50) {
+      if(curr > lastScrT) {
+        $('.header').addClass('active');
+      } else {
+        $('.header').removeClass('active');
+      }
     }
-
     lastScrT = curr;
   })
   
   // 마우스 이동에따라 이미지 움직임처리
   $('.sc-visual').mousemove(function(e){
     width = $(this).outerWidth()/2;
-    // console.log(width)
-    x = (e.clientX - width)/7
+    // // console.log(width)
+    x = (e.clientX - width)/7;
+    console.log(x)
     gsap.to('.image-area',{
       x:x
     })
