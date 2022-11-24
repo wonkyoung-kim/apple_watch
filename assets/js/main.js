@@ -21,7 +21,7 @@ $(function(){
     width = $(this).outerWidth()/2;
     // // console.log(width)
     x = (e.clientX - width)/7;
-    console.log(x)
+    // console.log(x)
     gsap.to('.image-area',{
       x:x
     })
@@ -49,7 +49,7 @@ $(function(){
     scrollTrigger:{
       trigger: ".sc-about",
       start: "top top",
-      end: "+=2000%",
+      end: "+=2500%",
       // markers: true,
       scrub: 5,
       pin: true,

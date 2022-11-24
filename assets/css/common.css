@@ -33,6 +33,11 @@ body {
   font-family: 'SF-Pro', 'AppleSDGothicNeo', sans-serif;
   line-height: 1.25;
 }
+
+.wrapper {
+  min-width: 1200px;
+}
+
 .blind {
   position: absolute;
   width: 1px; height: 1px;
